@@ -1,0 +1,44 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model ContactRequest {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  phone     String
+  message   String
+  createdAt DateTime @default(now())
+}
+
+model PickupReservation {
+  id                  Int      @id @default(autoincrement())
+  customerName        String
+  phone               String
+  address             String
+  preferredDate       String
+  preferredTime       String
+  specialInstructions String?
+  status              String   @default("en attente")
+  createdAt           DateTime @default(now())
+}
+
+model Newsletter {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}
+
+model QuoteRequest {
+  id             Int      @id @default(autoincrement())
+  customerName   String
+  phone          String
+  items          String   // JSON string containing chosen items and quantities
+  estimatedTotal Float
+  createdAt      DateTime @default(now())
+}

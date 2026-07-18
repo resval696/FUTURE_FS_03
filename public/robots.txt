@@ -1,0 +1,8 @@
+# Robots.txt for Kokouvi Wash
+# Guide crawlers to optimize indexing of our Lomé, Togo laundry services
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://kokouviwash.com/sitemap.xml

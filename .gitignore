@@ -1,0 +1,21 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+# =========================
+# Prisma
+# =========================
+prisma/dev.db
+prisma/dev.db-journal
+
+# =========================
+# SQLite
+# =========================
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3

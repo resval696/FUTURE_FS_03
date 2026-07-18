@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Replace with a real photo of the ironing service -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#cbd5e1" stroke-width="0.5" stroke-dasharray="2,4" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+  <rect width="800" height="600" fill="url(#grid)" opacity="0.6" />
+
+  <!-- Technical Border Frame -->
+  <rect x="20" y="20" width="760" height="560" rx="16" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8,4" />
+  
+  <!-- Camera Alignment Guides -->
+  <path d="M 10,40 L 10,10 L 40,10" fill="none" stroke="#64748b" stroke-width="3" />
+  <path d="M 790,40 L 790,10 L 760,10" fill="none" stroke="#64748b" stroke-width="3" />
+  <path d="M 10,560 L 10,590 L 40,590" fill="none" stroke="#64748b" stroke-width="3" />
+  <path d="M 790,560 L 790,590 L 760,590" fill="none" stroke="#64748b" stroke-width="3" />
+
+  <!-- Center Icon Group (Steam Iron) -->
+  <g transform="translate(400, 220)" text-anchor="middle">
+    <circle r="70" fill="#ffffff" stroke="#64748b" stroke-width="2" />
+    <path d="M -30,20 L 25,20 C 35,20 35,-10 15,-10 L -30,-10 Z M -30,20 L -30,-10 M -15,-10 L -15,-20 L 15,-20" stroke="#ec4899" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Title & Guidelines Text -->
+  <g transform="translate(400, 360)" text-anchor="middle">
+    <text y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#ec4899" letter-spacing="4">KOKOUVI WASH</text>
+    <text y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700" fill="#0f172a">📷 SERVICE DE REPASSAGE PROFESSIONNEL</text>
+    <text y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500" fill="#475569" font-style="italic">Replace with a real photo of the ironing service</text>
+    <text y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#64748b" letter-spacing="0.5">Spécifications recommandées : JPG/PNG • 1200 x 900 px (4:3)</text>
+  </g>
+
+  <!-- Bottom Badge -->
+  <rect x="290" y="525" width="220" height="30" rx="15" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+  <text x="400" y="544" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#475569" text-anchor="middle" letter-spacing="1">PROJET CLIENT RÉEL</text>
+</svg>

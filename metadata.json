@@ -1,0 +1,6 @@
+{
+  "name": "Kokouvi Wash",
+  "description": "Premium laundry, dry cleaning, pressing, and ironing service since 1946 in Lomé, Togo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Replace with company logo -->
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Background -->
+  <rect width="400" height="400" rx="40" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2" />
+
+  <!-- Center Logo Mark (Water / Basin / sparkle) -->
+  <g transform="translate(200, 180)" text-anchor="middle">
+    <path d="M -50,-10 L -35,40 C -32,46 -25,50 -18,50 L 18,50 C 25,50 32,46 35,40 L 50,-10" fill="none" stroke="url(#logoGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M -40,-25 Q 0,-10 40,-25 M -30,-10 Q 0,5 30,-10" stroke="#0ea5e9" stroke-width="4" fill="none" />
+    <path d="M 0,-50 L 4,-38 L 16,-34 L 4,-30 L 0,-18 L -4,-30 L -16,-34 L -4,-38 Z" fill="#22d3ee" />
+    <path d="M 50,-60 L 52,-52 L 60,-50 L 52,-48 L 50,-40 L 48,-48 L 40,-50 L 48,-52 Z" fill="#38bdf8" />
+  </g>
+
+  <!-- Brand Text -->
+  <g transform="translate(200, 310)" text-anchor="middle">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="#0f172a" letter-spacing="3">KOKOUVI WASH</text>
+    <text y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#64748b" letter-spacing="4">DEPUIS 1946</text>
+  </g>
+</svg>
