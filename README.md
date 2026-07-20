@@ -10,6 +10,7 @@
 
 ## 🔗 Live Demo
 
+**[kokouvi-wash.onrender.com](https://kokouvi-wash.onrender.com/)**
 
 
 ---
@@ -317,7 +318,7 @@ npx prisma studio     # Visual database explorer (browser UI)
 | Requirement | Status | Implementation |
 |-------------|--------|----------------|
 | Professional website for a real local business | ✅ | Kokouvi Wash — pressing & laundry, Lome |
-| Live website demo | ✅ | Deployed on Render + Netlify |
+| Live website demo | ✅ | Deployed on Render (unified server) |
 | GitHub repo (FUTURE_FS_03) | ✅ | Source code with full documentation |
 | Short pitch explaining how the site helps the business grow | ✅ | See pitch below |
 
